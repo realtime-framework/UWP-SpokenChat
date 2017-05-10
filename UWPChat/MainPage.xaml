@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="UWPChat.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPChat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="10" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="Messages" Margin="0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="176" FontFamily="Segoe UI Semibold" FontSize="24"/>
+        <Button x:Name="SpokenMessage" Content="Send a spoken message" HorizontalAlignment="Left" Margin="0,190,0,0" VerticalAlignment="Top" Click="SpokenMessage_Click"/>
+    </Grid>
+</Page>
